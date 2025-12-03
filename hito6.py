@@ -22,7 +22,7 @@ def RK_Fehlberg(U, t1, t2, F):
     return U5
 
 
-# DORMAND - PRINCE: 7 ETAPAS 
+# DORMAND PRINCE: 7 ETAPAS 
 def RK_DormandPrince(U, t1, t2, F):
     h = t2 - t1
 
@@ -178,3 +178,4 @@ plt.ylabel("y")
 plt.title("Runge Kutta de Dormand - Prince")
 plt.legend()
 plt.show()
+
